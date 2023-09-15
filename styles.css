@@ -1,0 +1,227 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.header {
+    height: 72px;
+    background: #1F2937;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 0 200px;
+  }
+
+div.second {
+    display: flex;
+    background: #1F2937;
+    padding: 64px 200px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 480px;
+    height: 300px;
+    padding: 16px 0 ;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color :#F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size:18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 144px;
+    height: 36px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    display: flex;
+    background-color: white;
+    flex: 1;
+}
+
+img.flower {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+.logo {
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+    color: #E5E7EB;
+}
+
+div.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+
+div.motiv-quote {
+    padding: 64px 200px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    font-family: Helvetica, sans-serif;
+    color:#1F2937;
+}
+
+.signature {
+    font-size: 30px;
+    font-weight: bold;
+    /* alignes the signature to the right */
+    margin-left: auto;
+    margin-right: 44px;
+}
+
+.footer {
+    height: 72px;
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 200px;
+    background-color: whitesmoke;
+    padding-bottom: 64px;
+    text-align: center;
+  }
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    color: #1F2937;
+    margin-top: 32px;
+}
+
+div.frame {
+    border:#3882F6 3px solid;
+    border-radius: 16px;
+    padding: 16px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.flower {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+div.text {
+    padding: 8px
+}
+
+
+/* Useful for debugging */
+
+/* * {
+    border: 1px solid red;
+} */ */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+}
