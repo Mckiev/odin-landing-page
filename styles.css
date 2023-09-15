@@ -180,6 +180,7 @@ div.content {
     background-color: whitesmoke;
     padding-bottom: 64px;
     text-align: center;
+    align-items: center;
   }
 
 .title {
@@ -190,6 +191,14 @@ div.content {
     margin-top: 32px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
 div.frame {
     border:#3882F6 3px solid;
     border-radius: 16px;
@@ -198,7 +207,6 @@ div.frame {
     height: 120px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 img.flower {
@@ -217,11 +225,5 @@ div.text {
 
 /* * {
     border: 1px solid red;
-} */ */
-
-.info {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-    align-items: center;
-}
+} */ 
+ */
